@@ -1,0 +1,47 @@
+{
+  "TJM": {
+    "Settings": {
+      "Mode": {
+        "Name": "Ce que change la molette",
+        "Hint": "« Échelle de l'image » grossit seulement le dessin du jeton, sans changer les cases qu'il occupe. « Taille en cases » change sa largeur et sa hauteur sur la grille.",
+        "Scale": "Échelle de l'image",
+        "Size": "Taille en cases"
+      },
+      "ScaleStep": {
+        "Name": "Pas de l'échelle",
+        "Hint": "De combien l'échelle de l'image change à chaque cran de molette (0,05 = 5 %)."
+      },
+      "SizeStep": {
+        "Name": "Pas de la taille en cases",
+        "Hint": "De combien de cases le jeton grandit ou rétrécit à chaque cran de molette."
+      },
+      "AllowPlayers": {
+        "Name": "Autoriser les joueurs",
+        "Hint": "Les joueurs peuvent redimensionner les jetons qu'ils possèdent. Sinon, seul le MJ le peut."
+      },
+      "Modifier": {
+        "Name": "Touche à maintenir",
+        "Hint": "Touche à garder enfoncée en tournant la molette au-dessus d'un jeton. (Ctrl et Maj seuls servent déjà à tourner les jetons.)",
+        "Alt": "Alt",
+        "ShiftAlt": "Maj + Alt"
+      },
+      "Invert": {
+        "Name": "Inverser le sens de la molette",
+        "Hint": "Coché : molette vers le bas pour grossir."
+      }
+    },
+    "Keys": {
+      "Reset": {
+        "Name": "Rendre au jeton sa taille d'origine",
+        "Hint": "S'applique au jeton survolé, ou aux jetons sélectionnés."
+      }
+    },
+    "Notifications": {
+      "NothingToReset": "Ce jeton a déjà sa taille d'origine."
+    },
+    "Errors": {
+      "Update": "Impossible de redimensionner le jeton (voir la console F12).",
+      "Reset": "Impossible de rendre au jeton sa taille d'origine (voir la console F12)."
+    }
+  }
+}

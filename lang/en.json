@@ -1,0 +1,30 @@
+{
+  "TJM": {
+    "Settings": {
+      "Mode": {
+        "Name": "What the wheel changes",
+        "Hint": "\"Image scale\" only enlarges the token artwork, keeping the grid cells it occupies. \"Grid size\" changes its width and height on the grid.",
+        "Scale": "Image scale",
+        "Size": "Grid size"
+      },
+      "ScaleStep": { "Name": "Scale step", "Hint": "How much the image scale changes per wheel notch (0.05 = 5%)." },
+      "SizeStep": { "Name": "Grid size step", "Hint": "How many grid units the token grows or shrinks per wheel notch." },
+      "AllowPlayers": { "Name": "Allow players", "Hint": "Players can resize tokens they own. Otherwise only the GM can." },
+      "Modifier": {
+        "Name": "Modifier key",
+        "Hint": "Key to hold while scrolling over a token. (Ctrl and Shift alone already rotate tokens.)",
+        "Alt": "Alt",
+        "ShiftAlt": "Shift + Alt"
+      },
+      "Invert": { "Name": "Invert wheel direction", "Hint": "Checked: scroll down to grow." }
+    },
+    "Keys": {
+      "Reset": { "Name": "Reset token to original size", "Hint": "Applies to the hovered token, or to the selected tokens." }
+    },
+    "Notifications": { "NothingToReset": "This token already has its original size." },
+    "Errors": {
+      "Update": "Could not resize the token (see F12 console).",
+      "Reset": "Could not reset the token size (see F12 console)."
+    }
+  }
+}
