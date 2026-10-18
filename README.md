@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/banner.png" alt="taille-jeton-molette" width="100%"></p>
+
 # Taille des jetons à la molette
 
 Module Foundry VTT (v13 et v14) : grossissez ou réduisez un jeton posé sur une scène en tournant la molette de la souris.
